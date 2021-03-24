@@ -1,0 +1,25 @@
+{
+  "version": "2.0",
+  "envId": "{{env.ENV_ID}}",
+  "framework": {
+    "name": "rsshub",
+    "plugins": {
+      "client": {
+        "use": "@cloudbase/framework-plugin-container",
+        "inputs": {
+          "mode": "low-cost",
+          "serviceName": "rsshub",
+          "servicePath": "/rsshub",
+          "uploadType": "image",
+          "containerPort": 1200,
+          "imageInfo": {
+            "imageUrl": "diygod/rsshub"
+          },
+          "envVariables": {
+            "DISCUZ_COOKIE_01":"X_CACHE_KEY=02d7af1bd41fa0cb73e78a35a6bc9e08; S5r8_2132_nofavfid=1; S5r8_2132_smile=1D1; S5r8_2132_home_diymode=1; PHPSESSID=e4hn57uf815hbefe5vqib1qv91; S5r8_2132_saltkey=Xg092JJ5; S5r8_2132_lastvisit=1614679468; S5r8_2132_atarget=1; S5r8_2132_auth=d1b5JG6OqVGfZS6%2FK3bnL4aAF0RJ4kFwyc3ZIFyCitoxJOYHP0NYL6am%2FEEigXWILOoAdGOIAnh9%2FKRN3PVLzvkPIw; S5r8_2132_lastcheckfeed=12308%7C1614683236; S5r8_2132_visitedfid=2; S5r8_2132_ulastactivity=0320e98sTNtN18tQm0fEZojOaT5m8rlOmPL55AFDy%2F037KrI7%2FRg; S5r8_2132_st_p=12308%7C1616588933%7Cd2a8a687871fc2d33941d19966198fb0; S5r8_2132_viewid=tid_163204; S5r8_2132_sid=b6j0Qb; S5r8_2132_lip=192.46.220.248%2C1616588897; S5r8_2132_sendmail=1; S5r8_2132_lastact=1616596312%09forum.php%09forumdisplay; S5r8_2132_st_t=12308%7C1616596312%7Ce0bbc93d2bd863f2f456e130da8d260a; S5r8_2132_forum_lastvisit=D_2_1616596312"
+          }
+        }
+      }
+    }
+  }
+}
